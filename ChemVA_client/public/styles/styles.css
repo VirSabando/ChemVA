@@ -1,0 +1,101 @@
+.LineUp {
+  height: 1222px;
+}
+
+.block {
+  width: 33.33%;
+  display: inline-block;
+  height: 500px; 
+}​
+
+.row {
+  width: 100%;
+/*  min-height: 50px;
+  height: 50px;*/
+  text-align: center; /* center the content of the container*/
+}
+
+.right {
+  background-color: grey;
+  /*padding-top: 100%;*/
+  /*height: 470px;*/
+  /*height: 666px;*/
+}
+
+.container {
+  width: 100%;
+  /*height: 200px;*/
+  /*background: aqua;*/
+  margin: auto;
+  /*padding: 10px;*/
+}
+
+.one {
+  width: 50%;
+/*  height: 200px;
+  background: red;*/
+  float: left;
+}
+
+.two {
+  margin-left: 50%;
+/*  height: 200px;
+  background: black;*/
+}
+
+/*Multiple dropdown menu*/
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /*background: #1bc2a2;*/
+  background: grey;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  /*background: #1bc2a2;*/
+  background: grey;
+}
+
+li ul { display: none; }
+
+ul li a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: 'Helvetica';
+  white-space: nowrap;
+  color: #fff;
+}
+
+ul li a:hover { background: #2c3e50; }
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background: grey; }
+
+li:hover li a:hover { background: #2c3e50; }
+
+.main-navigation li ul li { border-top: 0; }
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+ul:after { clear: both; }

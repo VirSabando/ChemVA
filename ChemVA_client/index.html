@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ChemVA</title>
+
+    <!-- Load styles -->
+    <link href="./public/styles/styles.css" rel="stylesheet">
+    <link href="./public/styles/lasso-style.css" rel="stylesheet">
+    <link href="./public/styles/inputform.css" rel="stylesheet">
+
+    <!-- D3.js -->
+    <!-- Please don't kill me, but I need the d3v3 for the lasso module -->
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script>
+        d3v3 = d3
+        window.d3 = null
+    </script>
+    <!-- d3v5 for literally everything else -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script> 
+
+    <!-- LineUp -->
+    <!-- <link href="https://unpkg.com/lineupjs/build/LineUpJS.css" rel="stylesheet"> -->
+    <!-- <script src="https://unpkg.com/lineupjs/build/LineUpJS.js"></script> -->
+    <link href="./public/LineUp/myLineUp.css" rel="stylesheet">
+    <script type="text/javascript" src="./public/LineUp/myLineUp.js"></script>
+    <link href="./public/LineUp/LineUpJS.js.map" rel="import">
+    <link href="./public/LineUp/LineUpJS.css.map" rel="import">
+<!--     <script type="text/map" src="./public/myLineUp.js.map"></script>
+    <script type="text/javascript" src="./public/myLineUp.css.map"></script> -->
+
+    <!-- 3D Unity -->
+    <script src="./public/3D/April21/TemplateData/UnityProgress.js"></script>
+    <script src="./public/3D/April21/Build/UnityLoader.js"></script>
+
+    <!-- Our scripts -->
+    <script type="text/javascript" src="./public/main.js"></script>
+    <script type="text/javascript" src="./public/lasso-min.js"></script>
+    <script type="text/javascript" src="./public/myhexlib.js"></script>
+    <script type="text/javascript" src="./public/lineup.js"></script>
+    <script type="text/javascript" src="./public/scatter.js"></script>
+    <script type="text/javascript" src="./public/difference.js"></script>
+    <script type="text/javascript" src="./public/ui.js"></script>
+
+  </head>
+
+  <!-- Body will be filled in the main.js -->
+  <body>
+
+
+    <div id="loginPopup">
+      <div class="form-popup" id="popupForm">
+        <!-- action="https://cs.uns.edu.ar/ChemVA/api/new_compound" -->
+        <form class="form-container" method="post" id="new_compound_form">
+          <h2>Insert new compound</h2>
+          <label for="compound_input">
+          <strong>SMILES formula</strong>
+          </label>
+          <input type="text" placeholder="SMILES formula" name="compound" id="compound_input" required>
+          
+          <label for="datasets">
+          <strong>Dataset</strong>
+          </label>
+          <input type="text" list="datasets" placeholder="Dataset" name="dataset" id="dataset_input" required/>
+          <datalist id="datasets">
+            <option>P-glycoprotein</option>
+            <option>serotonin-dopamine</option>
+          </datalist>
+<!--           <label for="Lipinski_RO5_violations">
+          <strong>Lipinski RO5 Violations</strong>
+          </label>
+          <input type="number" id="Lipinski_RO5_violations" placeholder="Lipinski RO5 Violations" name="Lipinski_RO5_violations" min="0" max="555">
+          <label for="Follows_Lipinskis_RO5">
+          <strong>Follows Lipinski's RO5</strong>
+          </label>
+          <input type="checkbox" id="Follows_Lipinskis_RO5" name="Follows_Lipinskis_RO5" value="False">
+          <label for="Bioactivity_A">
+          <strong>Bioactivity towards A</strong>
+          </label>
+          <input type="number" id="Bioactivity_A" placeholder="Bioactivity_A" name="Bioactivity_A" min="0" max="555">
+          <label for="Bioactivity_B">
+          <strong>Bioactivity towards B</strong>
+          </label>
+          <input type="number" id="Bioactivity_B" placeholder="Bioactivity_B" name="Bioactivity_B" min="0" max="555"> -->
+          <button type="button" class="btn" onclick="sendNewCompound()">Submit</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
