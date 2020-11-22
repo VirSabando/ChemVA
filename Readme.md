@@ -12,4 +12,4 @@ Now you can find here:
 	* client web application in D3.js and Node server
 	* web services for real-time molecular alignment and approximate position of new compound added to the dataset
 
-For the details about the use case datasets, plese refer to our paper.
+For the details about the use case datasets, please refer to our paper.
