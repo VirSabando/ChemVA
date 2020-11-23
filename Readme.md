@@ -1,6 +1,6 @@
 ## ChemVA: Interactive Visual Analysis of Chemical Compound Similarity in Virtual Screening ##
 
-![alt text](https://github.com/VirginiaSabando/ChemVA/blob/master/teaser_image.jpg?raw=true)
+![alt text](https://github.com/VirginiaSabando/ChemVA/blob/master/teaser_image.jpeg?raw=true)
 
 Published in: IEEE Transactions on Visualization and Computer Graphics
 
