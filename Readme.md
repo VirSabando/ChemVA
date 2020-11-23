@@ -1,10 +1,10 @@
-## ChemVA: Interactive Visual Analysis of Chemical Compound Similarity in Virtual Screening ##
+# ChemVA: Interactive Visual Analysis of Chemical Compound Similarity in Virtual Screening #
+
+## Published in: IEEE Transactions on Visualization and Computer Graphics ##
+## DOI: 10.1109/TVCG.2020.3030438 ##
 
 ![alt text](https://github.com/VirginiaSabando/ChemVA/blob/master/teaser_image.jpeg?raw=true)
 
-Published in: IEEE Transactions on Visualization and Computer Graphics
-
-DOI: 10.1109/TVCG.2020.3030438
 
 Now you can find here:
 * full paper
