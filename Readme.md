@@ -15,3 +15,17 @@ In this repository you can find:
 	* Back-end web services for real-time 3D molecular alignment and 2D projection of new compounds
 
 For further details about implementation and the datasets used in the case studies, please refer to [our full paper](https://arxiv.org/abs/2008.13150)
+
+## How to cite? ##
+
+If you find ChemVA useful in your research, please consider citing our paper:
+
+```bibtex
+@article{sabando2020chemva,
+  title={ChemVA: Interactive Visual Analysis of Chemical Compound Similarity in Virtual Screening},
+  author={Sabando, Maria Virginia and Ulbrich, Pavol and Selzer, Matias and Byska, Jan and Mican, Jan and Ponzoni, Ignacio and Soto, Axel J and Ganuza, Maria Lujan and Kozlikova, Barbora},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2020},
+  publisher={IEEE}
+}
+```
