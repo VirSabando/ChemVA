@@ -21,11 +21,13 @@ For further details about implementation and the datasets used in the case studi
 If you find ChemVA useful in your research, please consider citing our paper:
 
 ```bibtex
-@article{sabando2020chemva,
-  title={ChemVA: Interactive Visual Analysis of Chemical Compound Similarity in Virtual Screening},
-  author={Sabando, Maria Virginia and Ulbrich, Pavol and Selzer, Matias and Byska, Jan and Mican, Jan and Ponzoni, Ignacio and Soto, Axel J and Ganuza, Maria Lujan and Kozlikova, Barbora},
-  journal={IEEE Transactions on Visualization and Computer Graphics},
-  year={2020},
-  publisher={IEEE}
-}
+@article{sabando2021chemva,  
+  author={M. V. {Sabando} and P. {Ulbrich} and M. {Selzer} and J. {Byška} and J. {Mičan} and I. {Ponzoni} and A. J. {Soto} and M. L. {Ganuza} and B. {Kozlíková}},
+  journal={IEEE Transactions on Visualization and Computer Graphics},   
+  title={ChemVA: Interactive Visual Analysis of Chemical Compound Similarity in Virtual Screening},   
+  volume={27},  
+  number={2},  
+  pages={891-901}, 
+  year={2021},  
+  doi={10.1109/TVCG.2020.3030438}}
 ```
